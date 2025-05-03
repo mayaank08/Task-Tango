@@ -51,7 +51,7 @@ Clone the Repository
 bash
 Copy
 Edit
-git clone https://github.com/your-username/task-management-system.git
+git clone - https://github.com/mayaank08/Task-Tango.git
 cd task-management-system
 Install Dependencies
 
