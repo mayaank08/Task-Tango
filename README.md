@@ -1,73 +1,124 @@
-# Welcome to your Lovable project
+🧩 Task Management System
+A feature-rich Task Management System built for small teams to collaborate efficiently. It provides secure authentication, robust task management, and collaborative features, all wrapped in a clean, modern interface.
 
-## Project info
+🚀 Live Demo
+🔗 [Visit the Live App](https://vercel.com/mayank-kumars-projects-be8f0a55/task-tango/CEM9zdjCNGcFpZ7qscc1axdAUxCm)
+📂 [GitHub Repository](https://github.com/mayaank08/Task-Tango)
 
-**URL**: https://lovable.dev/projects/4456498f-a14c-46f2-9e1a-e4fa7047e0c7
+📌 Features
 
-## How can I edit this code?
+🧠 Task Management
+Create, Read, Update, Delete (CRUD) for tasks.
 
-There are several ways of editing your application.
+Attributes: Title, Description, Due Date, Priority, and Status.
 
-**Use Lovable**
+👥 Team Collaboration
+Assign tasks to other registered users.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4456498f-a14c-46f2-9e1a-e4fa7047e0c7) and start prompting.
+Notification system to alert users when a task is assigned.
 
-Changes made via Lovable will be committed automatically to this repo.
+📊 Dashboard
+View:
 
-**Use your preferred IDE**
+Tasks assigned to the user.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Tasks created by the user.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Overdue tasks.
 
-Follow these steps:
+🔍 Search and Filter
+Search tasks by title or description.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Filter tasks by:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Status
 
-# Step 3: Install the necessary dependencies.
-npm i
+Priority
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Due date
+
+⚙️ Tech Stack
+Layer	Tech
+Frontend	Next.js + Tailwind CSS
+Backend	NestJS or Express.js
+Database	MongoDB or PostgreSQL
+Auth	JWT, bcrypt
+Deployment	Vercel (Frontend), Railway/Render (Backend + DB)
+
+📦 Setup Instructions
+Clone the Repository
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/task-management-system.git
+cd task-management-system
+Install Dependencies
+
+bash
+Copy
+Edit
+# For both frontend and backend
+npm install
+Environment Variables
+Create .env files in both /frontend and /backend with necessary credentials (e.g., JWT secrets, DB URIs, API base URLs).
+
+Run Locally
+
+bash
+Copy
+Edit
+# Start Backend
+cd backend
+npm run start:dev
+
+# Start Frontend
+cd ../frontend
 npm run dev
-```
+🔍 My Approach
+Clean Architecture: Followed modular structure for scalability and maintainability.
 
-**Edit a file directly in GitHub**
+Edge Cases Handled: Tasks assigned to non-existent users, overdue logic, invalid filters.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Code Readability: Meaningful commit messages, modular structure, comments where needed.
 
-**Use GitHub Codespaces**
+📌 Assumptions & Trade-offs
+Users are self-managed post-registration; RBAC was implemented optionally (if done).
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Notifications are in-app only unless otherwise extended.
 
-## What technologies are used for this project?
+Basic validations are done both client- and server-side.
 
-This project is built with:
+🧪 Optional Advanced Features (Implemented / In Progress)
+ Role-Based Access Control (RBAC)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+ Real-Time Notifications (via Socket.io)
 
-## How can I deploy this project?
+ Recurring Tasks
 
-Simply open [Lovable](https://lovable.dev/projects/4456498f-a14c-46f2-9e1a-e4fa7047e0c7) and click on Share -> Publish.
+ Audit Logging
 
-## Can I connect a custom domain to my Lovable project?
+ Offline Support (PWA)
 
-Yes, you can!
+ Unit/Integration Tests (Jest)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+ Analytics Dashboard
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+ Customizable Notification Preferences
+
+🤖 How I Used AI
+Used ChatGPT to:
+
+Brainstorm component architecture and backend API design.
+
+Review code logic and improve performance.
+
+Generate boilerplate snippets quickly.
+
+Suggest test cases and edge condition handling.
+
+Final logic, structure, and decisions were made based on my understanding and learning goals.
+
+📝 License
+This project is licensed under the MIT License.
+
