@@ -2,7 +2,7 @@
 A feature-rich Task Management System built for small teams to collaborate efficiently. It provides secure authentication, robust task management, and collaborative features, all wrapped in a clean, modern interface.
 
 🚀 Live Demo
-🔗 [Visit the Live App](https://vercel.com/mayank-kumars-projects-be8f0a55/task-tango/FTAjj6DHrkR1cskEtRNYrQyAf3kF)
+🔗 [Visit the Live App](https://task-tango-k3c0rbbix-mayank-kumars-projects-be8f0a55.vercel.app/dashboard)
 📂 [GitHub Repository](https://github.com/mayaank08/Task-Tango)
 
 📌 Features
